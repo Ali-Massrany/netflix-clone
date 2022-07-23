@@ -34,7 +34,7 @@ function Account({ products }: Props) {
             width={120}
             height={120}
             className="cursor-pointer object-contain"
-            alt=""
+            alt="photo-link1"
           />
         </Link>
         <Link href="/account">
@@ -42,7 +42,7 @@ function Account({ products }: Props) {
             src="https://rb.gy/g1pwyx"
             alt=""
             className="cursor-pointer rounded"
-            alt=""
+            alt="photo-link"
           />
         </Link>
       </header>
@@ -50,7 +50,11 @@ function Account({ products }: Props) {
         <div className="flex flex-col gap-x-4 md:flex-row md:items-center">
           <h1 className="text-3xl md:text-4xl">Account</h1>
           <div className="-ml-0.5 flex items-center gap-x-1.5">
-            <img src="https://rb.gy/4vfk4r" alt="" className="h-7 w-7" />
+            <img
+              src="https://rb.gy/4vfk4r"
+              alt="photo-link3"
+              className="h-7 w-7"
+            />
             <p className="text-xs font-semibold text-[#555]">
               Member since {subscription?.created}
             </p>
