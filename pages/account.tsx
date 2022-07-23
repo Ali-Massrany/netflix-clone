@@ -40,7 +40,6 @@ function Account({ products }: Props) {
         <Link href="/account">
           <img
             src="https://rb.gy/g1pwyx"
-            alt=""
             className="cursor-pointer rounded"
             alt="photo-link"
           />
